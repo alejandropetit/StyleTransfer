@@ -38,20 +38,8 @@ Base de datos reducida disponible en: https://www.kaggle.com/datasets/alejandrop
 
 Se presenta la estructura general empleada.
 
-Input Image
-      │
-      ▼
- Fine-Tuned VGG19
-      │
-      ├── Content Features
-      │
-      └── Style Features
-                │
-                ▼
-      Gram / Covariance
-                │
-                ▼
-          Style Loss
+<img width="251" height="361" alt="image" src="https://github.com/user-attachments/assets/516d247b-e5a8-49ba-b621-753c352b2957" />
+
 
 ## Metodología
 
