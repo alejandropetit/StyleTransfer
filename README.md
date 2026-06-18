@@ -45,32 +45,7 @@ Se presenta la estructura general empleada.
 
 Primeramente se parte del diseño de un clasificador de estilos (4), y posteriormente el NST.
 
-Dataset WikiArt
-       │
-       ▼
- Fine-Tuning VGG19
-       │
-       ▼
- Extracción de características
-       │
-       ├── Contenido (activaciones profundas)
-       │
-       └── Estilo (Gram / Covarianza)
-                    │
-                    ▼
-        Neural Style Transfer
-                    │
-                    ▼
-         Optimización iterativa
-                    │
-                    ▼
-          Imagen estilizada
-                    │
-                    ▼
-          SSIM y LPIPS
-                    │
-                    ▼
-      Transferencia multiestilo
+<img width="402" height="657" alt="image" src="https://github.com/user-attachments/assets/bba304a4-c266-44df-b6aa-0f5bed875e74" />
 
 ## Métricas
 
